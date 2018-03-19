@@ -1,0 +1,7 @@
+{
+    "name": "Frontend Frameworks",
+    "version": "1.0",
+    "dependencies": {
+        "bootstrap": "latest"
+    }
+}
