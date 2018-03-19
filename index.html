@@ -10,15 +10,35 @@
     <link rel="stylesheet" href="../frontend-frameworks/libraries/bootstrap/dist/css/bootstrap.min.css">
     
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../frontend-frameworks/libraries/css/style.css">
+    
+    <!-- jQuery -->
+    <script src="../frontend-frameworks/libraries/jquery/dist/jquery.min.js"></script>
+    
+    <script> 
+        $(document).ready(function(){
+            $("#flip").click(function(){
+            $("#panel").slideToggle("slow");
+        });
+    });
+    </script>
+    
     
 </head>
 <body>
+<div class="container">
     <div class="jumbotron">
         <h1>Frontend Framework - Bootstrap</h1>
         <p>Over a dozen reusable components built to provide iconography, dropdowns, input groups, navigation, alerts, and much more.</p>
         <p><a class="btn btn-primary btn-lg" href="https://getbootstrap.com/docs/3.3/components/" role="button">Learn more</a></p>
     </div>
+    
+    <div id="flip">jQuery slideToogle - toggles panel down
+    </div>
+      
+    <div id="panel">jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.</div>
+    
+</div>
     <script src="../frontend-frameworks/libraries/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

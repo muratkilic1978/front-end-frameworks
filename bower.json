@@ -1,7 +1,8 @@
 {
-    "name": "Frontend Frameworks",
-    "version": "1.0",
-    "dependencies": {
-        "bootstrap": "latest"
-    }
+  "name": "Frontend Frameworks",
+  "version": "1.0",
+  "dependencies": {
+    "bootstrap": "latest",
+    "jquery": "^3.3.1"
+  }
 }
